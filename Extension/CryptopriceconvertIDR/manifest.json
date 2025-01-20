@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Crypto Price Converter To IDR",
+  "version": "1.0",
+  "description": "Check cryptocurrency prices and compare it to idr using CoinAPI",
+  "permissions": ["activeTab"],
+  "host_permissions": [
+  "https://pro-api.coinmarketcap.com/*"
+],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

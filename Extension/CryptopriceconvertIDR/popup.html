@@ -1,0 +1,85 @@
+<html>
+<head>
+  <title>Crypto Price Converter To IDR</title>
+  <style>
+    body {
+      width: 300px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+      background-color: rgb(135, 131, 131);
+    }
+    .price-container {
+      margin: 10px 0;
+    }
+    select, input {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+    #price {
+      font-size: 18px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+  <h2>Crypto Price Converter To IDR</h2>
+  <select id="cryptoSelect">
+    <option value="BTC">Bitcoin (BTC)</option>
+    <option value="ETH">Ethereum (ETH)</option>
+    <option value="USDT">Tether (USDT)</option>
+    <option value="BNB">Binance Coin (BNB)</option>
+    <option value="ADA">Cardano (ADA)</option>
+    <option value="XRP">Ripple (XRP)</option>
+    <option value="DOGE">Dogecoin (DOGE)</option>
+    <option value="SOL">Solana (SOL)</option>
+    <option value="DOT">Polkadot (DOT)</option>
+    <option value="LTC">Litecoin (LTC)</option>
+    <option value="AGIX">SingularityNET (AGIX)</option>
+    <option value="FET">Fetch.ai (FET)</option>
+    <option value="OCEAN">Ocean Protocol (OCEAN)</option>
+    <option value="NMR">Numeraire (NMR)</option>
+    <option value="GRT">The Graph (GRT)</option>
+    <option value="RAI">RAI Finance (RAI)</option>
+    <option value="ALI">Artificial Liquid Intelligence (ALI)</option>
+    <option value="RNDR">Render (RNDR)</option>
+    <option value="TRB">Tellor (TRB)</option>
+    <option value="PEPE">Pepe (PEPE)</option>
+    <option value="SHIB">Shiba Inu (SHIB)</option>
+    <option value="FLOKI">Floki Inu (FLOKI)</option>
+    <option value="BONK">Bonk (BONK)</option>
+    <option value="WOJAK">Wojak (WOJAK)</option>
+    <option value="CABO">Catboy (CABO)</option>
+    <option value="LINK">Chainlink (LINK)</option>
+    <option value="UNI">Uniswap (UNI)</option>
+    <option value="AVAX">Avalanche (AVAX)</option>
+    <option value="MATIC">Polygon (MATIC)</option>
+    <option value="ATOM">Cosmos (ATOM)</option>
+    <option value="ALGO">Algorand (ALGO)</option>
+    <option value="XLM">Stellar (XLM)</option>
+    <option value="VET">VeChain (VET)</option>
+    <option value="THETA">Theta Network (THETA)</option>
+    <option value="USDC">USD Coin (USDC)</option>
+    <option value="DAI">Dai (DAI)</option>
+    <option value="BUSD">Binance USD (BUSD)</option>
+    <option value="AAVE">Aave (AAVE)</option>
+    <option value="MKR">Maker (MKR)</option>
+    <option value="CAKE">PancakeSwap (CAKE)</option>
+    <option value="COMP">Compound (COMP)</option>
+    <option value="YFI">Yearn.finance (YFI)</option>
+    <option value="AXS">Axie Infinity (AXS)</option>
+    <option value="MANA">Decentraland (MANA)</option>
+    <option value="SAND">The Sandbox (SAND)</option>
+    <option value="ENJ">Enjin Coin (ENJ)</option>
+  </select>
+  <input type="number" id="cryptoAmount" placeholder="Enter amount" min="0" step="0.0001">
+  <button id="checkPrice">Enter</button>
+  <div class="price-container">
+    <div id="price">Select a cryptocurrency</div>
+    <div id="totalPrice"></div>
+    </div>
+  </div>
+   <script src="popup.js"></script>
+   </body>
+</html>

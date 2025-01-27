@@ -1,1 +1,1 @@
-An extnesion for your browser
+An extension for your browser
